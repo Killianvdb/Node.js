@@ -1,8 +1,7 @@
 // imports
 const express = require('express');
-const mysql2 = require('mysql2');
+const mysql = require('mysql');
 const db = require('./database/db');
-
 
 
 // create Express app
@@ -22,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 // start the server
-const PORT = 6060;
+const PORT = 3000;
 app.listen(PORT, () => console.info(`Server has started on ${PORT}`));
 
 
