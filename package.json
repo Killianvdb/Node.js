@@ -4,7 +4,8 @@
   "description": "nodejs dynamic API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "keywords": [
     "database",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mysql": "^2.18.1",
     "mysql2": "^3.7.0"
   }
 }
